@@ -10,7 +10,7 @@
 
 This repository contains a Windows shellcode loader designed to demonstrate various antivirus evasion techniques. The project showcases how modern malware attempts to bypass security solutions and is intended to help security researchers, red teamers, and defenders better understand these tactics.
 
-** A detailed technical explanation will be coming soon!**
+**A detailed technical explanation will be coming soon!**
 
 ---
 
