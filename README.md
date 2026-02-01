@@ -141,13 +141,7 @@ gcc loader.c -o loader.exe -lws2_32
 - **Authorized Use**: Security research, penetration testing with permission, educational learning
 - **Unauthorized Use**: Deploying against systems without explicit authorization, malicious activities, illegal purposes
 
-**By using this software, you agree to:**
-1. Only use it in authorized and legal contexts
-2. Not use it for malicious purposes or unauthorized access
-3. Comply with all applicable laws and regulations
-4. Take full responsibility for your actions
-
-The authors and contributors are not responsible for any misuse or damage caused by this software.
+The author is not responsible for any misuse or damage caused by this software.
 
 ---
 
