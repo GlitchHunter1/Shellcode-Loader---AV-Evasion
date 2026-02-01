@@ -1,20 +1,20 @@
 # Shellcode Loader - AV Evasion
 
-## ⚠️ EDUCATIONAL PURPOSE ONLY ⚠️
+##  EDUCATIONAL PURPOSE ONLY 
 
 **This project is intended strictly for educational and research purposes to understand cybersecurity concepts, antivirus evasion techniques, and defensive mechanisms. Unauthorized use of this software for malicious purposes is illegal and unethical.**
 
 ---
 
-## 📚 Overview
+## Overview
 
 This repository contains a Windows shellcode loader designed to demonstrate various antivirus evasion techniques. The project showcases how modern malware attempts to bypass security solutions and is intended to help security researchers, red teamers, and defenders better understand these tactics.
 
-**🔜 A detailed technical explanation will be coming soon!**
+** A detailed technical explanation will be coming soon!**
 
 ---
 
-## 🎯 Features
+## Features
 
 ### Core Functionality
 - **RC4 Encryption/Decryption**: Encrypts shellcode using the RC4 stream cipher to evade static signature detection
@@ -31,7 +31,7 @@ This repository contains a Windows shellcode loader designed to demonstrate vari
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 - **`loader.c`**: Main shellcode loader with RC4 decryption and process injection capabilities
 - **`shell-enc.py`**: Python script to encrypt shellcode using RC4 encryption
@@ -39,7 +39,7 @@ This repository contains a Windows shellcode loader designed to demonstrate vari
 
 ---
 
-## 🛠️ How It Works
+## How It Works
 
 ### 1. Shellcode Preparation
 Use the `shell-enc.py` script to encrypt your raw shellcode:
@@ -67,7 +67,7 @@ This outputs encrypted shellcode in C array format that can be inserted into `lo
 
 ---
 
-## 🔧 Building and Usage
+## Building and Usage
 
 ### Prerequisites
 - Windows development environment
@@ -113,7 +113,7 @@ gcc loader.c -o loader.exe -lws2_32
 
 ---
 
-## 🔐 Technical Details
+## Technical Details
 
 ### Encryption
 - **Algorithm**: RC4 (Rivest Cipher 4)
@@ -134,12 +134,12 @@ gcc loader.c -o loader.exe -lws2_32
 
 ---
 
-## ⚖️ Legal Disclaimer
+## Legal Disclaimer
 
 **IMPORTANT**: This software is provided for educational and authorized security research purposes only.
 
-- ✅ **Authorized Use**: Security research, penetration testing with permission, educational learning
-- ❌ **Unauthorized Use**: Deploying against systems without explicit authorization, malicious activities, illegal purposes
+- **Authorized Use**: Security research, penetration testing with permission, educational learning
+- **Unauthorized Use**: Deploying against systems without explicit authorization, malicious activities, illegal purposes
 
 **By using this software, you agree to:**
 1. Only use it in authorized and legal contexts
@@ -151,7 +151,7 @@ The authors and contributors are not responsible for any misuse or damage caused
 
 ---
 
-## 🎓 Learning Resources
+## Learning Resources
 
 To better understand the techniques used in this project, consider studying:
 - Windows Process Injection Techniques
@@ -163,31 +163,7 @@ To better understand the techniques used in this project, consider studying:
 
 ---
 
-## 🔜 Coming Soon
+## Coming Soon
 
 - **Detailed Technical Explanation**: In-depth analysis of each evasion technique
-- **Detection Methods**: How to detect this type of shellcode loader
-- **Defense Strategies**: Recommendations for defending against these techniques
 - **Additional Evasion Techniques**: More advanced obfuscation methods
-
----
-
-## 🤝 Contributing
-
-Contributions for educational improvements are welcome! Please ensure all contributions maintain the educational focus and include appropriate disclaimers.
-
----
-
-## 📞 Contact
-
-For questions, suggestions, or responsible disclosure of issues, please open an issue on this repository.
-
----
-
-## 📜 License
-
-This project is provided as-is for educational purposes. Use responsibly and ethically.
-
----
-
-**Remember: With great power comes great responsibility. Use your knowledge to defend, not to harm.**
