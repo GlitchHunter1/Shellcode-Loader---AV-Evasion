@@ -1,4 +1,4 @@
-# Shellcode Loader — AV Evasion
+# Shellcode Loader: AV Evasion
 
 A Windows shellcode loader with RC4 encryption and process injection via Early Bird APC.
 
@@ -8,7 +8,7 @@ A Windows shellcode loader with RC4 encryption and process injection via Early B
 
 | File | Description |
 |------|-------------|
-| `loader.c` | Main loader — RC4 decrypt + APC injection into suspended process |
+| `loader.c` | Main loader: RC4 decrypt + APC injection into suspended process |
 | `shell-enc.py` | Encrypts raw shellcode with RC4 |
 | `generate_loader.py` | Generates complete `loader.c` with shellcode already embedded |
 | `dll.c` | DLL payload |
