@@ -34,11 +34,6 @@ Outputs a ready-to-compile `loader.c` with shellcode already embedded.
 
 ### 3. Compile
 
-**MinGW:**
-```bash
-gcc loader.c -o loader.exe
-```
-
 **MSVC:**
 ```bash
 cl.exe loader.c /link /OUT:loader.exe
