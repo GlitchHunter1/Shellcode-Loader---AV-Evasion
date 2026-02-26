@@ -20,7 +20,7 @@ A Windows shellcode loader with RC4 encryption and process injection via Early B
 
 ### 1. Encrypt your shellcode
 ```bash
-python shell-enc.py <shellcode.bin>
+python shell-enc.py
 ```
 
 Copy the output array into `loader.c` inside `encrypted_shellcode[]`.
